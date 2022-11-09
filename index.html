@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="wrapper" id="wrapper">
+        <header class="header">
+            <div class="years">
+                <ul class="years-list" id="year_list">
+                    <!-- <li class="years-item">2017</li>
+                    <li class="years-item">2018</li>
+                    <li class="years-item">2019</li>
+                    <li class="years-item">2020</li>
+                    <li class="years-item">2021</li>
+                    <li class="years-item current">2022</li>
+                    <li class="years-item">2023</li>
+                    <li class="years-item">2024</li>
+                    <li class="years-item">2025</li>
+                    <li class="years-item">2026</li>
+                    <li class="years-item">2027</li> -->
+                </ul>
+            </div>
+            <span class="current_date" id="header_refresh_btn"></span>
+        </header>
+
+        <section class="calender-heading" id="calender_heading">
+            <h1 class="heading">
+                Today
+            </h1>
+            <div class="today">
+                <span class="current_date">01</span>
+                <span class="current_day">Wednesday</span>
+                <span class="current_month">January</span>
+                <span class="current_year">2022</span>
+            </div>
+        </section>
+        <section class="calender-content" id="calender_content">
+            <!-- all calender  -->
+        </section>
+        
+    </main>
+
+
+
+    <!-- modal -->
+    <div class="modal-calender" id="modal_calender" data-year="" data-month="">
+            <div class="header">
+                <i class="fa-solid fa-calendar-day icon" id="refresh_current_date"></i>
+                <i class="fa-solid fa-xmark icon" id="close_modal_calender"></i>
+            </div>
+            <div class="month">
+                <i class="fa-solid fa-chevron-left icon" id="prev"></i>
+                <div>   
+                    <div class="year-month">
+                        <h3 class="month-name" id="month_name">September</h3>
+                        <small class="year-name" id="year_name">2022</small>
+                    </div>
+                    <div class="today">
+                        <span class="current_day" id="current_day">Wednesday</span>
+                        <span class="current_date" id="current_date">01</span>
+                        <span class="current_month" id="current_month">January</span>
+                        <span class="current_year" id="current_year">2022</span>
+                    </div>
+                </div>
+                <i class="fa-solid fa-chevron-right icon" id="next"></i>
+            </div>
+            <div class="day">
+                <span class="day-name">MON</span>
+                <span class="day-name">TUE</span>
+                <span class="day-name">WED</span>
+                <span class="day-name">THU</span>
+                <span class="day-name">FRI</span>
+                <span class="day-name">SAT</span>
+                <span class="day-name">SUN</span>
+            </div>
+            <div class="dates">
+                <ul class="date-list" id="date_list">
+                    dates
+                </ul>
+            </div>
+        </div>
+    <script src="app.js" type="module"></script>
+</body>
+</html>
