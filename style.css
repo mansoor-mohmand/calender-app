@@ -618,5 +618,13 @@ section.calender-content
     {
         width: 93%;
     }
+
+    .modal-calender .month .year-month .month-name
+    {
+        font-size: 35px;
+        font-weight: 700;
+        font-variant: small-caps;
+        animation: opacityfade 1000ms forwards;
+    }
     
 }
